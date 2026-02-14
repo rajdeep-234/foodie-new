@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <title>Foodi - Our Menu</title>
+
+      <!-- Bootstrap -->
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+      />
+
+      <!-- Tailwind -->
+      <script src="https://cdn.tailwindcss.com"></script>
+
+      <!-- Icons -->
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="./src/style.css" />
+    </head>
+    <body class="bg-slate-900 text-white">
+      <nav
+        class="fixed w-full z-50 bg-slate-800/70 backdrop-blur-lg border-b border-slate-700"
+      >
+        <div class="container flex items-center justify-between h-16">
+          <!-- Logo -->
+          <div class="flex items-center gap-2">
+            <a href="#">
+              <img src="./images/Logo.png" alt="logo" />
+            </a>
+          </div>
+
+          <!-- Center Links -->
+          <ul class="hidden md:flex gap-10 text-sm font-medium">
+            <a href="./index.html">
+              <li class="hover:text-orange-400 cursor-pointer">Home</li>
+            </a>
+            <a href="./menu.html">
+              <li class="hover:text-orange-400 cursor-pointer">Menu</li>
+            </a>
+            <a href="./about.html">
+              <li class="hover:text-orange-400 cursor-pointer">About Us</li>
+            </a>
+            <a href="./chef.html">
+              <li class="hover:text-orange-400 cursor-pointer">Chef</li>
+            </a>
+            <a href="./blog.html">
+              <li class="hover:text-orange-400 cursor-pointer">Blog</li>
+            </a>
+            <a href="./contact.html">
+              <li class="hover:text-orange-400 cursor-pointer">Contact</li>
+            </a>
+          </ul>
+
+          <!-- Right Side -->
+          <div class="flex items-center gap-4">
+            <i
+              class="bi bi-cart text-lg cursor-pointer hover:text-orange-400"
+            ></i>
+            <button
+              class="bg-orange-500 hover:bg-orange-600 px-4 py-1.5 rounded-lg text-sm transition"
+            >
+              LOGIN
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section
+          class="relative pt-40 pb-32 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-center"
+        >
+          <!-- Overlay effect -->
+          <div class="absolute inset-0 bg-black/40"></div>
+
+          <div class="relative container">
+            <h1 class="text-5xl md:text-6xl font-bold tracking-wide">
+              <span class="text-white">Home /</span>
+              <span class="text-orange-500"> Our Menu</span>
+            </h1>
+
+            <p
+              class="text-slate-400 mt-6 max-w-2xl mx-auto text-sm leading-relaxed"
+            >
+              Lorem ipsum dolor sit amet consectetur. Dolor sit vitae nunc
+              varius. Facilisis eget cras sit semper sit enim. Turpis aliquet ac
+              eu donec ut. Sagittis vestibulum at quis non massa netus.
+            </p>
+          </div>
+        </section>
+        <section
+          class="py-24 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900"
+        >
+          <div class="container text-center">
+            <!-- Title -->
+            <h2 class="text-3xl md:text-4xl font-semibold mb-6">
+              Our Delicious Menu
+            </h2>
+
+            <!-- Description -->
+            <p
+              class="text-slate-400 max-w-2xl mx-auto text-sm md:text-base leading-relaxed mb-10"
+            >
+              Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc
+              varius. Facilisis eget cras sit semper sit enim. Turpis aliquet at
+              ac eu donec ut. Sagittis vestibulum at quis non massa netus.
+            </p>
+
+            <!-- Category Buttons -->
+            <div class="flex flex-wrap justify-center gap-4">
+              <button class="category-btn active">Indian</button>
+              <button class="category-btn">Mexican</button>
+              <button class="category-btn">Italian</button>
+              <button class="category-btn">Chinese</button>
+              <button class="category-btn">Bengali</button>
+              <button class="category-btn">Arabian</button>
+              <button class="category-btn">Japanese</button>
+            </div>
+          </div>
+        </section>
+        <section class="container py-16">
+          <div class="row g-4">
+            <!-- Card Template Start -->
+            <!-- Repeat this block for each item -->
+
+            <!-- 1 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="food-card">
+                <div class="relative">
+                  <img src="./images/FRIED_CHICKEN.png" class="food-img" />
+                  <div class="fav-btn"><i class="bi bi-heart"></i></div>
+                </div>
+                <div class="p-4">
+                  <div class="rating">★★★★☆</div>
+                  <h5 class="food-title">Fried Chicken</h5>
+                  <p class="food-desc">
+                    Lorem Ipsum is simply dummy text of the printing industry.
+                  </p>
+                  <div class="bottom-row">
+                    <span class="price">Rs.250</span>
+                    <div class="cart-btn"><i class="bi bi-basket3"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="food-card">
+                <div class="relative">
+                  <img src="./images/ROLL.png" class="food-img" />
+                  <div class="fav-btn"><i class="bi bi-heart"></i></div>
+                </div>
+                <div class="p-4">
+                  <div class="rating">★★★★☆</div>
+                  <h5 class="food-title">Kolkata Style Roll</h5>
+                  <p class="food-desc">
+                    Lorem Ipsum is simply dummy text of the printing industry.
+                  </p>
+                  <div class="bottom-row">
+                    <span class="price">Rs.99</span>
+                    <div class="cart-btn"><i class="bi bi-basket3"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="food-card">
+                <div class="relative">
+                  <img src="./images/Chicken Burger.png" class="food-img" />
+                  <div class="fav-btn"><i class="bi bi-heart"></i></div>
+                </div>
+                <div class="p-4">
+                  <div class="rating">★★★★☆</div>
+                  <h5 class="food-title">Chicken Burger</h5>
+                  <p class="food-desc">
+                    Lorem Ipsum is simply dummy text of the printing industry.
+                  </p>
+                  <div class="bottom-row">
+                    <span class="price">Rs.175</span>
+                    <div class="cart-btn"><i class="bi bi-basket3"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="food-card">
+                <img src="./images/Delhi_chole.png" class="food-img" />
+                <div class="fav-btn"><i class="bi bi-heart"></i></div>
+                <div class="p-4">
+                  <div class="rating">★★★★☆</div>
+                  <h5 class="food-title">Delhi Style Chole</h5>
+                  <p class="food-desc">
+                    Lorem Ipsum is simply dummy text of the printing industry.
+                  </p>
+                  <div class="bottom-row">
+                    <span class="price">Rs.156</span>
+                    <div class="cart-btn"><i class="bi bi-basket3"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="food-card">
+                <img src="./images/Butterscotch_cake.png" class="food-img" />
+                <div class="fav-btn"><i class="bi bi-heart"></i></div>
+                <div class="p-4">
+                  <div class="rating">★★★★☆</div>
+                  <h5 class="food-title">Butterscotch Cake</h5>
+                  <p class="food-desc">
+                    Lorem Ipsum is simply dummy text of the printing industry.
+                  </p>
+                  <div class="bottom-row">
+                    <span class="price">Rs.159</span>
+                    <div class="cart-btn"><i class="bi bi-basket3"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="food-card">
+                <img src="./images/Chocolate_ice_cream.png" class="food-img" />
+                <div class="fav-btn"><i class="bi bi-heart"></i></div>
+                <div class="p-4">
+                  <div class="rating">★★★★☆</div>
+                  <h5 class="food-title">Chocolate Ice Cream</h5>
+                  <p class="food-desc">
+                    Lorem Ipsum is simply dummy text of the printing industry.
+                  </p>
+                  <div class="bottom-row">
+                    <span class="price">Rs.135</span>
+                    <div class="cart-btn"><i class="bi bi-basket3"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="food-card">
+                <img src="./images/Hyderabadi Biryani.png" class="food-img" />
+                <div class="fav-btn"><i class="bi bi-heart"></i></div>
+                <div class="p-4">
+                  <div class="rating">★★★★★</div>
+                  <h5 class="food-title">Hyderabadi Biryani</h5>
+                  <p class="food-desc">
+                    Lorem Ipsum is simply dummy text of the printing industry.
+                  </p>
+                  <div class="bottom-row">
+                    <span class="price">Rs.450</span>
+                    <div class="cart-btn"><i class="bi bi-basket3"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 8 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="food-card">
+                <img src="./images/Masala_Dosa.png" class="food-img" />
+                <div class="fav-btn"><i class="bi bi-heart"></i></div>
+                <div class="p-4">
+                  <div class="rating">★★★★☆</div>
+                  <h5 class="food-title">Masala Dosa</h5>
+                  <p class="food-desc">
+                    Lorem Ipsum is simply dummy text of the printing industry.
+                  </p>
+                  <div class="bottom-row">
+                    <span class="price">Rs.189</span>
+                    <div class="cart-btn"><i class="bi bi-basket3"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 9 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="food-card">
+                <img src="./images/Chicken_samosa.png" class="food-img" />
+                <div class="fav-btn"><i class="bi bi-heart"></i></div>
+                <div class="p-4">
+                  <div class="rating">★★★★☆</div>
+                  <h5 class="food-title">Chicken Samosa</h5>
+                  <p class="food-desc">
+                    Lorem Ipsum is simply dummy text of the printing industry.
+                  </p>
+                  <div class="bottom-row">
+                    <span class="price">Rs.65</span>
+                    <div class="cart-btn"><i class="bi bi-basket3"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="bg-[#0f1b2b] py-16">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
+          <!-- Logo & About -->
+          <div>
+            <a href="#">
+              <img src="./images/Logo.png" alt="logo">
+            </a>
+            <p class="mt-4 text-gray-400 text-sm leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur. Tristique cursus morbi
+              nibh nec et vulputate. Turpis tortor nisi imperdiet quis accumsan.
+            </p>
+
+            <!-- Social Icons -->
+            <div class="flex space-x-4 mt-6">
+              <div
+                class="w-10 h-10 flex items-center justify-center bg-[#16263a] rounded-full hover:bg-orange-400 transition"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div
+                class="w-10 h-10 flex items-center justify-center bg-[#16263a] rounded-full hover:bg-orange-400 transition"
+              >
+                <i class="fab fa-x-twitter"></i>
+              </div>
+              <div
+                class="w-10 h-10 flex items-center justify-center bg-[#16263a] rounded-full hover:bg-orange-400 transition"
+              >
+                <i class="fab fa-instagram"></i>
+              </div>
+              <div
+                class="w-10 h-10 flex items-center justify-center bg-[#16263a] rounded-full hover:bg-orange-400 transition"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Us -->
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-4">Contact Us</h3>
+            <div class="space-y-4">
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-10 h-10 bg-[#16263a] rounded-full flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-envelope text-orange-400"></i>
+                </div>
+                <span>infofoodi@gmail.com</span>
+              </div>
+
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-10 h-10 bg-[#16263a] rounded-full flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-phone text-orange-400"></i>
+                </div>
+                <span>+91 7029112661</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- User Links -->
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-4">User Link</h3>
+            <ul class="space-y-3">
+              <li class="hover:text-orange-400 cursor-pointer">About Us</li>
+              <li class="hover:text-orange-400 cursor-pointer">Contact Us</li>
+              <li class="hover:text-orange-400 cursor-pointer">
+                Order Delivery
+              </li>
+              <li class="hover:text-orange-400 cursor-pointer">
+                Payments & Tax
+              </li>
+              <li class="hover:text-orange-400 cursor-pointer">
+                Terms of Services
+              </li>
+            </ul>
+          </div>
+
+          <!-- Location -->
+          <div>
+            <h3 class="text-xl font-semibold text-white mb-4">Location</h3>
+            <p class="text-gray-400 text-sm leading-relaxed">
+              543 Country Club Ave, NC 27587, London, UK <br />
+              +1 257 6541120
+            </p>
+
+            <!-- Payment Icons -->
+            <div class="flex gap-3 mt-6">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png"
+                class="h-8 bg-white p-1 rounded"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Google_Pay_Logo.svg"
+                class="h-8 bg-white p-1 rounded"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png"
+                class="h-8 bg-white p-1 rounded"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
+                class="h-8 bg-white p-1 rounded"
+              />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>
+</html>

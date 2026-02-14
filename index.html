@@ -1,0 +1,1134 @@
+<!-- Navbar -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Foodi Banner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body class="bg-black overflow-x-hidden">
+    <!-- ================= NAVBAR ================= -->
+    <nav
+      class="absolute top-6 left-1/2 -translate-x-1/2 w-[95%] max-w-7xl z-50 backdrop-blur-md bg-black/40 rounded-2xl px-6 py-3"
+    >
+      <div class="d-flex align-items-center justify-content-between">
+        <!-- Logo -->
+        <div class="flex items-center gap-2 text-white text-2xl font-bold">
+          <a href="#">
+            <img src="./images/Logo.png" alt="Logo" />
+          </a>
+        </div>
+
+        <!-- Menu -->
+        <ul class="hidden md:flex gap-8 text-white font-medium">
+            <li class="hover:text-orange-400 cursor-pointer"><a href="#">Home</a></li>
+            <li class="hover:text-orange-400 cursor-pointer">
+              <a href="./menu.html">Menu</a>
+            </li>
+            <li class="hover:text-orange-400 cursor-pointer">
+              <a href="./about.html">About Us</a>
+            </li>
+            <li class="hover:text-orange-400 cursor-pointer">
+              <a href="./chef.html">Chef</a>
+            </li>
+            <li class="hover:text-orange-400 cursor-pointer">
+              <a href="./blog.html">Blog</a>
+            </li>
+            <li class="hover:text-orange-400 cursor-pointer">
+              <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+
+        <!-- Right -->
+        <div class="flex items-center gap-4">
+          <i class="fa-solid fa-bag-shopping text-white text-lg"></i>
+          <button
+            class="bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-lg font-semibold"
+          >
+            LOGIN
+          </button>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!-- ================= BANNER SECTION ================= -->
+      <section
+        class="vh-100 bg-cover bg-center relative flex items-center justify-center text-center"
+        style="background-image: url('./images/Banner-image.png')"
+      >
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-black/40"></div>
+
+        <!-- Content -->
+        <div class="relative z-10 text-white px-4">
+          <span class="tracking-widest text-sm block mb-3"
+            >HELLO, NEW FRIEND</span
+          >
+
+          <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+            TASTE HAPPINESS IN <br class="hidden md:block" />
+            EVERY BITE
+          </h1>
+
+          <div class="flex justify-center gap-4 mt-4">
+            <button
+              class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition"
+            >
+              EXPLORE MENU
+            </button>
+            <button
+              class="bg-orange-500 px-6 py-3 rounded-lg hover:bg-orange-600 transition"
+            >
+              RESERVATION
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- ================= ABOUT US SECTION ================= -->
+      <section class="py-20 bg-gray-100">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <!-- Content Column -->
+            <div class="col-lg-6">
+              <span
+                class="text-orange-500 font-semibold tracking-widest text-sm"
+              >
+                ABOUT US
+              </span>
+
+              <h2 class="text-4xl font-extrabold mt-3 mb-4 me-20 leading-tight">
+                We Invite You to Visit Our Coffee House
+              </h2>
+
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perspiciatis tempore aliquam laboriosam, modi dolore eveniet.
+                Laboriosam dolorem tempore vero illo possimus, reprehenderit
+                dolorum consectetur? At eius voluptatem temporibus, fugit
+                pariatur laudantium tempora a consequuntur eos sequi omnis
+                aperiam nisi. Architecto obcaecati molestias sunt libero ducimus
+                velit sint aliquid. Quo optio distinctio facilis odio ipsum,
+                minus aliquam? Dignissimos quis sit temporibus.
+              </p>
+
+              <!-- Button -->
+              <button
+                class="bg-orange-500 hover:bg-orange-600 text-white px-7 py-3 rounded-lg font-semibold transition"
+              >
+                Learn More
+              </button>
+            </div>
+            <!-- Image Column -->
+            <div class="col-lg-6">
+              <div class="relative">
+                <img
+                  src="./images/About-image.png"
+                  class="rounded-3xl shadow-lg w-100"
+                  alt="About Foodi"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ================= FEATURES SECTION ================= -->
+      <section
+        class="py-24 bg-gradient-to-r from-[#0b1220] via-[#0f1a2d] to-[#0b1220] text-white"
+      >
+        <div class="container text-center">
+          <!-- Section Heading -->
+          <span
+            class="text-sm tracking-widest text-orange-400 uppercase font-semibold"
+          >
+            Features
+          </span>
+
+          <h2 class="text-4xl md:text-5xl font-extrabold mt-3 mb-4">
+            Why people choose us?
+          </h2>
+
+          <p class="text-gray-400 max-w-2xl mx-auto mb-16 leading-relaxed">
+            Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc
+            varius. Facilisis eget cras sit semper sit enim. Turpis aliquet at
+            ac eu donec ut.
+          </p>
+
+          <!-- Features Row -->
+          <div class="row g-5">
+            <!-- Feature 1 -->
+            <div class="col-md-4">
+              <div class="h-full px-6">
+                <div class="mb-6 flex justify-center">
+                  <div
+                    class="w-16 h-16 flex items-center justify-center border border-gray-600 rounded-xl"
+                  >
+                    <img src="./images/Menu.png" alt="Menu" />
+                  </div>
+                </div>
+
+                <h4 class="text-xl font-bold mb-3 uppercase">
+                  Menu for every taste
+                </h4>
+
+                <p class="text-gray-400 leading-relaxed">
+                  Lorem ipsum dolor sit amet consectetur. Felis eget sit
+                  scelerisque vestibulum. Urna faucibus amet massa lacus lorem.
+                </p>
+              </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="col-md-4">
+              <div class="h-full px-6">
+                <div class="mb-6 flex justify-center relative">
+                  <span
+                    class="absolute -top-4 w-8 h-[2px] bg-orange-400"
+                  ></span>
+                  <div
+                    class="w-16 h-16 flex items-center justify-center border border-gray-600 rounded-xl"
+                  >
+                    <img src="./images/Beans.png" alt="Menu" />
+                  </div>
+                </div>
+
+                <h4 class="text-xl font-bold mb-3 uppercase">
+                  Always quality beans
+                </h4>
+
+                <p class="text-gray-400 leading-relaxed">
+                  Lorem ipsum dolor sit amet consectetur. Felis eget sit
+                  scelerisque vestibulum. Urna faucibus amet massa lacus lorem.
+                </p>
+              </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="col-md-4">
+              <div class="h-full px-6">
+                <div class="mb-6 flex justify-center">
+                  <div
+                    class="w-16 h-16 flex items-center justify-center border border-gray-600 rounded-xl"
+                  >
+                    <img src="./images/BARISTA.png" alt="BARISTA" />
+                  </div>
+                </div>
+
+                <h4 class="text-xl font-bold mb-3 uppercase">
+                  Experienced barista
+                </h4>
+
+                <p class="text-gray-400 leading-relaxed">
+                  Lorem ipsum dolor sit amet consectetur. Felis eget sit
+                  scelerisque vestibulum. Urna faucibus amet massa lacus lorem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="py-24 bg-gradient-to-r from-[#0b1220] via-[#0f1a2d] to-[#0b1220] text-white"
+      >
+        <div class="container">
+          <!-- Heading -->
+          <div class="text-center mb-16">
+            <span class="uppercase text-orange-400 tracking-widest text-sm"
+              >Popular Menu</span
+            >
+            <h2 class="text-5xl font-bold mt-3 mb-4">Explore Our Foods</h2>
+            <p class="text-gray-400 max-w-2xl mx-auto">
+              Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc
+              varius.
+            </p>
+          </div>
+
+          <!-- Slider -->
+          <div class="swiper foodSlider">
+            <div class="swiper-wrapper">
+              <!-- CARD 1 -->
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="swiper-slide">
+                    <div
+                      class="bg-[#162033] rounded-3xl overflow-hidden shadow-lg"
+                    >
+                      <div class="relative">
+                        <img
+                          src="./images/FRIED_CHICKEN.png"
+                          class="w-100 h-64 object-cover"
+                        />
+
+                        <button
+                          class="absolute top-4 right-4 bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center"
+                        >
+                          <i class="fa-regular fa-heart text-orange-400"></i>
+                        </button>
+                      </div>
+
+                      <div class="p-4">
+                        <div class="text-orange-400 mb-2">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <h4 class="text-xl font-semibold">Fried Chicken</h4>
+                        <p class="text-orange-400 font-bold mt-2">$12.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <!-- CARD 2 -->
+                  <div class="swiper-slide">
+                    <div
+                      class="bg-[#162033] rounded-3xl overflow-hidden shadow-lg"
+                    >
+                      <div class="relative">
+                        <img
+                          src="./images/ROLL.png"
+                          class="w-100 h-64 object-cover"
+                        />
+
+                        <button
+                          class="absolute top-4 right-4 bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center"
+                        >
+                          <i class="fa-regular fa-heart text-orange-400"></i>
+                        </button>
+                      </div>
+
+                      <div class="p-4">
+                        <div class="text-orange-400 mb-2">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </div>
+
+                        <h4 class="text-xl font-semibold">
+                          Kolkata Style Roll
+                        </h4>
+                        <p class="text-orange-400 font-bold mt-2">$10.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <!-- CARD 3 -->
+                  <div class="swiper-slide">
+                    <div
+                      class="bg-[#162033] rounded-3xl overflow-hidden shadow-lg"
+                    >
+                      <div class="relative">
+                        <img
+                          src="./images/Chicken Burger.png"
+                          class="w-100 h-64 object-cover"
+                        />
+
+                        <button
+                          class="absolute top-4 right-4 bg-gray-800 w-10 h-10 rounded-full flex items-center justify-center"
+                        >
+                          <i class="fa-regular fa-heart text-orange-400"></i>
+                        </button>
+                      </div>
+
+                      <div class="p-4">
+                        <div class="text-orange-400 mb-2">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <h4 class="text-xl font-semibold">Chicken Burger</h4>
+                        <p class="text-orange-400 font-bold mt-2">$15.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="relative py-24 text-white"
+        style="
+          background: url(&quot;https://images.unsplash.com/photo-1600891964599-f61ba0e24092&quot;)
+            center/cover;
+        "
+      >
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-black/60"></div>
+
+        <div class="container position-relative">
+          <div class="row align-items-center">
+            <!-- Left Content -->
+            <div class="col-lg-6 mb-5 mb-lg-0 relative z-10">
+              <span class="text-sm uppercase tracking-widest text-orange-400">
+                Contact Us
+              </span>
+
+              <h2 class="text-4xl md:text-5xl font-extrabold mt-3 mb-6">
+                Working Hours
+              </h2>
+
+              <button
+                class="bg-orange-400 hover:bg-orange-500 text-black font-semibold px-6 py-3 rounded-xl transition"
+              >
+                Contact Us
+              </button>
+            </div>
+
+            <!-- Right Time Card -->
+            <div class="col-lg-6 relative z-10">
+              <div
+                class="bg-[#111827]/90 backdrop-blur-md rounded-3xl p-8 md:p-10 max-w-md ms-lg-auto shadow-xl"
+              >
+                <!-- Weekdays -->
+                <div class="mb-8">
+                  <h4 class="text-xl font-semibold mb-2">Monday to Friday</h4>
+                  <p class="text-gray-300">09:00 AM – 10:00 PM</p>
+                </div>
+
+                <!-- Weekend -->
+                <div>
+                  <h4 class="text-xl font-semibold mb-2">Saturday to Sunday</h4>
+                  <p class="text-gray-300">09:00 AM – 07:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="py-24 bg-gradient-to-r from-[#0b1220] via-[#0f1a2d] to-[#0b1220] text-white"
+      >
+        <div class="container text-center">
+          <!-- Heading -->
+          <span class="text-orange-400 uppercase tracking-widest text-sm">
+            Our Chef
+          </span>
+
+          <h2 class="text-4xl md:text-5xl font-bold mt-3 mb-4">
+            Meet our expert chef
+          </h2>
+
+          <p class="text-gray-400 max-w-2xl mx-auto mb-16">
+            Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc
+            varius. Facilisis eget cras sit semper sit enim. Turpis aliquet at
+            ac eu donec ut.
+          </p>
+
+          <!-- Chef Cards -->
+          <div class="row g-5">
+            <!-- Chef 1 -->
+            <div class="col-md-6 col-lg-3">
+              <div
+                class="bg-[#111827] rounded-3xl p-6 text-center shadow-lg h-full"
+              >
+                <img
+                  src="./images/Masum_Rana.png"
+                  class="rounded-2xl mb-5 w-full h-64 object-cover"
+                />
+
+                <h4 class="text-xl font-semibold">Masum Rana</h4>
+                <p class="text-gray-400 mb-4">Master Chef</p>
+
+                <div class="flex justify-center gap-3">
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-x-twitter"></i>
+                  </a>
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Chef 2 -->
+            <div class="col-md-6 col-lg-3">
+              <div
+                class="bg-[#111827] rounded-3xl p-6 text-center shadow-lg h-full"
+              >
+                <img
+                  src="./images/Manisha_Agarwal.png"
+                  class="rounded-2xl mb-5 w-full h-64 object-cover"
+                />
+
+                <h4 class="text-xl font-semibold">Manisha Agarwal</h4>
+                <p class="text-gray-400 mb-4">Senior Chef</p>
+
+                <div class="flex justify-center gap-3">
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-x-twitter"></i>
+                  </a>
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Chef 3 -->
+            <div class="col-md-6 col-lg-3">
+              <div
+                class="bg-[#111827] rounded-3xl p-6 text-center shadow-lg h-full"
+              >
+                <img
+                  src="./images/Muhibbur_Rashid.png"
+                  class="rounded-2xl mb-5 w-full h-64 object-cover"
+                />
+
+                <h4 class="text-xl font-semibold">Muhibbur Rashid</h4>
+                <p class="text-gray-400 mb-4">Master Chef</p>
+
+                <div class="flex justify-center gap-3">
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-x-twitter"></i>
+                  </a>
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Chef 4 -->
+            <div class="col-md-6 col-lg-3">
+              <div
+                class="bg-[#111827] rounded-3xl p-6 text-center shadow-lg h-full"
+              >
+                <img
+                  src="./images/Rashir_Kabir.png"
+                  class="rounded-2xl mb-5 w-full h-64 object-cover"
+                />
+
+                <h4 class="text-xl font-semibold">Rashed Kabir</h4>
+                <p class="text-gray-400 mb-4">Master Chef</p>
+
+                <div class="flex justify-center gap-3">
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-x-twitter"></i>
+                  </a>
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a
+                    class="w-10 h-10 rounded-full bg-[#1f2937] flex items-center justify-center hover:bg-orange-400 transition"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="py-24 bg-gradient-to-r from-[#0b1220] via-[#0f1a2d] to-[#0b1220] text-white"
+      >
+        <div class="container">
+          <!-- Heading -->
+          <div class="text-center mb-20">
+            <span class="text-orange-400 uppercase tracking-widest text-sm">
+              Testimonial
+            </span>
+
+            <h2 class="text-4xl md:text-5xl font-bold mt-3 mb-4">
+              What our clients say about us?
+            </h2>
+
+            <p class="text-gray-400 max-w-2xl mx-auto">
+              Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc
+              varius. Facilisis eget cras sit semper sit enim.
+            </p>
+          </div>
+
+          <!-- Testimonials -->
+          <div class="row g-5 mb-24">
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-4">
+              <div
+                class="bg-white/5 backdrop-blur-lg rounded-3xl p-6 h-full relative"
+              >
+                <i
+                  class="fa-solid fa-quote-left text-4xl text-orange-400 mb-4"
+                ></i>
+
+                <p class="text-gray-300 leading-relaxed mb-4">
+                  From the moment we walked in, everything felt perfect — the
+                  food, the ambiance, and the warm service.
+                </p>
+
+                <div class="text-orange-400 mb-4">★ ★ ★ ★ ☆</div>
+
+                <div class="flex items-center gap-3 mt-6">
+                  <img
+                    src="./images/Jerome_Bell.png"
+                    class="w-12 h-12 rounded-full object-cover"
+                  />
+                  <div>
+                    <h5 class="font-semibold">Jerome Bell</h5>
+                    <span class="text-gray-400 text-sm">New York, USA</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6 col-lg-4">
+              <div
+                class="bg-white/5 backdrop-blur-lg rounded-3xl p-6 h-full relative"
+              >
+                <i
+                  class="fa-solid fa-quote-left text-4xl text-pink-400 mb-4"
+                ></i>
+
+                <p class="text-gray-300 leading-relaxed mb-4">
+                  It's not just a meal, it's an experience we keep coming back
+                  for. Highly recommended for taste lovers.
+                </p>
+
+                <div class="text-pink-400 mb-4">★ ★ ★ ★ ★</div>
+
+                <div class="flex items-center gap-3 mt-6">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/22.jpg"
+                    class="w-12 h-12 rounded-full object-cover"
+                  />
+                  <div>
+                    <h5 class="font-semibold">Jacob Jones</h5>
+                    <span class="text-gray-400 text-sm">London, UK</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-6 col-lg-4">
+              <div
+                class="bg-white/5 backdrop-blur-lg rounded-3xl p-6 h-full relative"
+              >
+                <i
+                  class="fa-solid fa-quote-left text-4xl text-orange-300 mb-4"
+                ></i>
+
+                <p class="text-gray-300 leading-relaxed mb-4">
+                  Amazing food quality and service. The atmosphere makes you
+                  feel relaxed and welcomed.
+                </p>
+
+                <div class="text-orange-300 mb-4">★ ★ ★ ★ ☆</div>
+
+                <div class="flex items-center gap-3 mt-6">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/35.jpg"
+                    class="w-12 h-12 rounded-full object-cover"
+                  />
+                  <div>
+                    <h5 class="font-semibold">Floyd Miles</h5>
+                    <span class="text-gray-400 text-sm">New York, USA</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stats -->
+          <div class="row text-center g-4">
+            <div class="col-6 col-lg-3">
+              <h3 class="text-4xl font-bold">1287+</h3>
+              <p class="text-white-400 uppercase text-sm mt-2">
+                Visitors Daily
+              </p>
+            </div>
+
+            <div class="col-6 col-lg-3">
+              <h3 class="text-4xl font-bold">578+</h3>
+              <p class="text-white-400 uppercase text-sm mt-2">
+                Deliveries Monthly
+              </p>
+            </div>
+
+            <div class="col-6 col-lg-3">
+              <h3 class="text-4xl font-bold">1440+</h3>
+              <p class="text-white-400 uppercase text-sm mt-2">
+                Positive Feedback
+              </p>
+            </div>
+
+            <div class="col-6 col-lg-3">
+              <h3 class="text-4xl font-bold">40+</h3>
+              <p class="text-white-400 uppercase text-sm mt-2">
+                Awards & Honors
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="relative min-vh-100 flex items-center text-white"
+        style="
+          background: url(&quot;./images/Vegetables.png&quot;) center/cover;
+        "
+      >
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <!-- LEFT CONTENT -->
+            <div class="col-lg-6 text-center text-lg-start">
+              <h1 class="fw-bold display-5 leading-tight mb-4">
+                Simple Way To <br />
+                Order Your Foods
+              </h1>
+
+              <div
+                class="flex flex-wrap justify-center justify-lg-start gap-3 mt-4"
+              >
+                <!-- Google Play -->
+                <button
+                  class="bg-white text-dark flex items-center gap-2 px-4 py-2 rounded-xl shadow"
+                >
+                  <img src="./images/Google_play.png" class="w-6" />
+                  <span>
+                    <small class="block text-xs">GET IT ON</small>
+                    <strong>Google Play</strong>
+                  </span>
+                </button>
+
+                <!-- Apple Store -->
+                <button
+                  class="bg-white text-dark flex items-center gap-2 px-4 py-2 rounded-xl shadow"
+                >
+                  <img src="./images/Apple.png" class="w-6" />
+                  <span>
+                    <small class="block text-xs">GET IT ON</small>
+                    <strong>Apple Store</strong>
+                  </span>
+                </button>
+              </div>
+            </div>
+
+            <!-- RIGHT MOCKUPS -->
+            <div class="col-lg-6 relative flex justify-center">
+              <!-- Phone 1 -->
+              <body
+                class="bg-gray-100 flex justify-center items-center min-h-screen"
+              >
+                <!-- APP CONTAINER -->
+                <div
+                  class="bg-white rounded-3xl shadow-lg w-[360px] h-[740px] overflow-hidden relative"
+                >
+                  <!-- HEADER -->
+                  <div class="p-4 flex justify-between items-center">
+                    <div>
+                      <a href="#">
+                        <img src="./images/Logo.png" alt="Logo" />
+                      </a>
+                      <p class="text-sm text-gray-500">
+                        Order your favourite food!
+                      </p>
+                    </div>
+                    <img
+                      src="https://i.pravatar.cc/40"
+                      class="rounded-full w-10 h-10"
+                    />
+                  </div>
+
+                  <!-- SEARCH -->
+                  <div class="px-4 flex items-center gap-2">
+                    <div
+                      class="flex items-center bg-gray-100 rounded-full px-3 py-2 w-full"
+                    >
+                      <i class="bi bi-search text-gray-500"></i>
+                      <input
+                        type="text"
+                        placeholder="Search"
+                        class="bg-transparent outline-none px-2 w-full text-sm"
+                      />
+                    </div>
+                    <button class="bg-orange-400 text-white rounded-full p-2">
+                      <i class="bi bi-sliders"></i>
+                    </button>
+                  </div>
+
+                  <!-- CATEGORIES -->
+                  <div class="px-4 mt-4 flex gap-3 overflow-x-auto">
+                    <button
+                      class="bg-orange-400 text-white px-4 py-1 rounded-full text-sm"
+                    >
+                      All
+                    </button>
+                    <button class="bg-gray-100 px-4 py-1 rounded-full text-sm">
+                      Combos
+                    </button>
+                    <button class="bg-gray-100 px-4 py-1 rounded-full text-sm">
+                      Indian
+                    </button>
+                    <button class="bg-gray-100 px-4 py-1 rounded-full text-sm">
+                      Chinese
+                    </button>
+                  </div>
+
+                  <!-- FOOD GRID -->
+                  <div class="px-4 mt-4 grid grid-cols-2 gap-4">
+                    <!-- CARD -->
+                    <div
+                      class="bg-gray-50 rounded-xl p-2 text-center shadow-sm"
+                    >
+                      <img
+                        src="./images/Cheeseburger.png"
+                        class="mx-auto h-20"
+                      />
+                      <h6 class="mt-2 text-sm fw-bold text-black">
+                        Cheeseburger
+                      </h6>
+                      <p class="text-xs text-gray-400">Wendy's Burger</p>
+                      <div
+                        class="flex justify-between items-center text-sm mt-1"
+                      >
+                        <span class="fw-bold text-black"
+                          >Rs.<span class="fw-bold text-orange-300"
+                            >199</span
+                          ></span
+                        >
+                        <span class="text-orange-400">⭐ 4.9</span>
+                      </div>
+                    </div>
+
+                    <div
+                      class="bg-gray-50 rounded-xl p-2 text-center shadow-sm"
+                    >
+                      <img src="./images/Pizza.png" class="mx-auto h-20" />
+                      <h6 class="mt-2 text-sm fw-bold text-black">Pizza</h6>
+                      <p class="text-xs text-gray-400">Italian Cheese Pizza</p>
+                      <div
+                        class="flex justify-between items-center text-sm mt-1"
+                      >
+                        <span class="fw-bold text-black"
+                          >Rs.<span class="text-orange-300">299</span></span
+                        >
+                        <span class="text-orange-400">⭐ 4.9</span>
+                      </div>
+                    </div>
+
+                    <div
+                      class="bg-gray-50 rounded-xl p-2 text-center shadow-sm"
+                    >
+                      <img src="./images/Shawarma.png" class="mx-auto h-20" />
+                      <h6 class="mt-2 text-sm fw-bold text-black">Shawarma</h6>
+                      <p class="text-xs text-gray-400">Chicken Shawarma</p>
+                      <div
+                        class="flex justify-between items-center text-sm mt-1"
+                      >
+                        <span class="fw-bold text-black"
+                          >Rs. <span class="text-orange-400">149</span></span
+                        >
+                        <span class="text-orange-400">⭐ 4.9</span>
+                      </div>
+                    </div>
+                    <div
+                      class="bg-gray-50 rounded-xl p-2 text-center shadow-sm"
+                    >
+                      <img
+                        src="./images/KFC Chicken.png"
+                        class="mx-auto h-20"
+                      />
+                      <h6 class="mt-2 text-sm fw-bold text-black">Chicken</h6>
+                      <p class="text-xs text-gray-400">KFC Fried Chicken</p>
+                      <div
+                        class="flex justify-between items-center text-sm mt-1"
+                      >
+                        <span class="fw-bold text-black"
+                          >Rs. <span class="text-orange-400">169</span></span
+                        >
+                        <span class="text-orange-400">⭐ 4.9</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- ADD BUTTON -->
+                  <button
+                    class="absolute bottom-20 left-1/2 -translate-x-1/2 bg-orange-400 text-white rounded-full w-14 h-14 shadow-lg flex items-center justify-center"
+                  >
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+
+                  <!-- BOTTOM NAV -->
+                  <div
+                    class="absolute bottom-0 w-full bg-orange-400 text-white py-3 flex justify-around rounded-t-3xl"
+                  >
+                    <i class="fa-solid fa-house"></i>
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-solid fa-heart"></i>
+                  </div>
+                </div>
+              </body>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="relative w-full h-[450px] flex items-center justify-center"
+      >
+        <!-- BACKGROUND IMAGE -->
+        <img
+          src="./images/RESTURANT_IMAGE.jpg"
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+
+        <!-- DARK OVERLAY -->
+        <div class="absolute inset-0 bg-black/60"></div>
+
+        <!-- CONTENT -->
+        <div class="relative z-10 max-w-3xl text-center px-4">
+          <!-- SMALL HEADING -->
+          <p class="text-orange-400 tracking-widest text-sm uppercase mb-2">
+            News Letter
+          </p>
+
+          <!-- MAIN HEADING -->
+          <h2 class="text-white text-3xl md:text-4xl fw-bold mb-3">
+            Subscribe Our Newsletter
+          </h2>
+
+          <!-- DESCRIPTION -->
+          <p class="text-gray-300 text-sm md:text-base mb-6">
+            Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc
+            varius. Facilisis eget cras sit semper sit enim. Turpis aliquet at
+            ac eu donec ut.
+          </p>
+
+          <!-- FORM -->
+          <form
+            class="flex flex-col sm:flex-row items-center justify-center gap-3"
+          >
+            <!-- INPUT -->
+            <input
+              type="email"
+              placeholder="Type Your Email Id"
+              class="form-control rounded-full px-4 py-3 w-full sm:w-[420px] bg-teal-900/80 border-0 text-white placeholder-gray-300 focus:ring-2 focus:ring-orange-400"
+            />
+
+            <!-- BUTTON -->
+            <button
+              type="submit"
+              class="bg-orange-400 hover:bg-orange-500 text-white px-6 py-3 rounded-full fw-semibold transition"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#0f1b2a] text-gray-400 pt-16">
+      <div class="container">
+        <div class="row gy-5">
+          <!-- BRAND -->
+          <div class="col-lg-4 col-md-6">
+            <div class="flex items-center gap-2 mb-3">
+              <a href="#">
+                <img src="./images/Logo.png" alt="logo">
+              </a>
+            </div>
+
+            <p class="text-sm leading-relaxed mb-4">
+              Lorem ipsum dolor sit amet consectetur. Tristique cursus morbi
+              nibh nec et vulputate. Turpis tortor nisi imperdiet quis accumsan.
+            </p>
+
+            <!-- SOCIAL ICONS -->
+            <div class="flex gap-3">
+              <a
+                href="#"
+                class="w-9 h-9 flex items-center justify-center rounded-full bg-[#1c2a3a] hover:bg-orange-400 text-white"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="#"
+                class="w-9 h-9 flex items-center justify-center rounded-full bg-[#1c2a3a] hover:bg-orange-400 text-white"
+              >
+                <i class="fab fa-x-twitter"></i>
+              </a>
+              <a
+                href="#"
+                class="w-9 h-9 flex items-center justify-center rounded-full bg-[#1c2a3a] hover:bg-orange-400 text-white"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="#"
+                class="w-9 h-9 flex items-center justify-center rounded-full bg-[#1c2a3a] hover:bg-orange-400 text-white"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- CONTACT -->
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white font-semibold mb-4">Contact Us</h5>
+
+            <div class="flex items-center gap-3 mb-3">
+              <span
+                class="w-9 h-9 flex items-center justify-center rounded-full bg-[#1c2a3a] text-orange-400"
+              >
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span>infofoodi@gmail.com</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <span
+                class="w-9 h-9 flex items-center justify-center rounded-full bg-[#1c2a3a] text-orange-400"
+              >
+                <i class="fas fa-phone"></i>
+              </span>
+              <span>+91 7029112661</span>
+            </div>
+          </div>
+
+          <!-- USER LINKS -->
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white font-semibold mb-4">User Link</h5>
+            <ul class="space-y-2 text-sm">
+              <li><a href="#" class="hover:text-orange-400">About Us</a></li>
+              <li><a href="#" class="hover:text-orange-400">Contact Us</a></li>
+              <li>
+                <a href="#" class="hover:text-orange-400">Order Delivery</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-orange-400">Payments & Tax</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-orange-400">Terms of Services</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- LOCATION -->
+          <div class="col-lg-2 col-md-6">
+            <h5 class="text-white font-semibold mb-4">Location</h5>
+            <p class="text-sm mb-3">
+              543 Country Club Ave,<br />
+              NC 27587, London, UK
+            </p>
+            <p class="text-sm mb-4">+1257 6541120</p>
+
+            <!-- PAYMENT ICONS -->
+            <div class="flex gap-2">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png"
+                class="h-6 bg-white p-1 rounded"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg"
+                class="h-6 bg-white p-1 rounded"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
+                class="h-6 bg-white p-1 rounded"
+              />
+              <img
+                src="./images/PayPal.png"
+                class="h-6 bg-white p-1 rounded"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BOTTOM BAR -->
+      <div class="border-t border-gray-700 mt-12 py-4 text-sm">
+        <div
+          class="container flex flex-col md:flex-row justify-between items-center gap-2"
+        >
+          <span>© 2024 ARR, All right reserved</span>
+          <div class="flex gap-4">
+            <a href="#" class="hover:text-orange-400">Privacy Policy</a>
+            <a href="#" class="hover:text-orange-400">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,186 @@
+/* Glass Effect */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Input Style */
+.input-style {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 10px;
+  background: #0f2a31;
+  border: none;
+  color: white;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-style:focus {
+  border: 1px solid #f97316;
+}
+
+/* Button */
+.btn-send {
+  background: #f97316;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-send:hover {
+  background: #ea580c;
+  transform: translateY(-3px);
+}
+
+/* Social Icons */
+.social-icon {
+  background: #0f2a31;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  background: #f97316;
+}
+
+/* Fade Up Animation */
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.footer-section {
+  background: linear-gradient(to bottom, #07161d, #0b1f29);
+}
+
+/* ================= FOOTER TEXT ================= */
+
+.footer-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-text {
+  color: #9ca3af;
+  margin-bottom: 8px;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #f97316;
+  padding-left: 5px;
+}
+
+/* ================= SOCIAL ICON ================= */
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.social-icon:hover {
+  background: #f97316;
+  transform: translateY(-5px) scale(1.1);
+}
+
+/* ================= PAYMENT ICON ================= */
+
+.payment-icon {
+  width: 50px;
+  transition: 0.4s;
+}
+
+.payment-icon:hover {
+  transform: scale(1.2);
+}
+
+/* ================= ANIMATIONS ================= */
+
+.animate-fade-in {
+  animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slide Up Animation */
+
+.animate-slide-up {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideUp 1s ease forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.3s;
+}
+
+.delay-2 {
+  animation-delay: 0.6s;
+}
+
+.delay-3 {
+  animation-delay: 0.9s;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Map animation */
+
+.map-section iframe {
+  animation: zoomIn 1.5s ease;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

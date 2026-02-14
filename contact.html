@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Our Contact - Foodi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- FontAwesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./src/contact.css" />
+  </head>
+
+  <body class="bg-[#081c22] text-white">
+    <!-- ================= NAVBAR ================= -->
+    <header class="fixed w-full z-50">
+      <div class="max-w-6xl mx-auto mt-5 px-6">
+        <div
+          class="glass flex justify-between items-center px-6 py-3 rounded-full"
+        >
+          <a href="#">
+            <img src="./images/Logo.png" alt="logo" />
+          </a>
+
+          <ul class="hidden md:flex gap-8 text-sm">
+            <li>
+              <a href="./index.html" class="hover:text-orange-500">Home</a>
+            </li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./chef.html">Chef</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+
+          <div class="flex items-center gap-4">
+            <i class="fa-solid fa-basket-shopping text-white"></i>
+            <button
+              class="bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-lg"
+            >
+              LOGIN
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="pt-40 pb-24 text-center fade-up">
+      <h1 class="text-4xl font-bold">
+        Home / <span class="text-orange-500">Our Contact</span>
+      </h1>
+      <p class="text-gray-400 mt-4 max-w-xl mx-auto">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quia
+        molestiae ipsa provident, vitae necessitatibus laudantium rerum iusto,
+        repudiandae voluptatibus voluptates tenetur consectetur cupiditate
+        doloremque voluptate natus quod alias fuga eligendi harum ipsam sequi?
+        Quis officia culpa mollitia dolor magni?
+      </p>
+    </section>
+    <section class="py-20">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-3 fade-up">Get In Touch</h2>
+        <p class="text-gray-400 mb-12 fade-up">
+          Your email address will not be published. Required fields are marked
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-10">
+          <!-- Contact Form -->
+          <div class="glass p-8 rounded-2xl fade-up">
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+              <div>
+                <label>Your Name:</label>
+                <input type="text" class="input-style" />
+              </div>
+              <div>
+                <label>Email:</label>
+                <input type="email" class="input-style" />
+              </div>
+            </div>
+
+            <div class="mb-6">
+              <label>Subjects:</label>
+              <input type="text" class="input-style" />
+            </div>
+
+            <div class="mb-6">
+              <label>Message:</label>
+              <textarea rows="5" class="input-style"></textarea>
+            </div>
+
+            <button class="btn-send">SEND MESSAGE</button>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="glass p-8 rounded-2xl fade-up">
+            <h3 class="text-xl font-semibold mb-4">Address:</h3>
+            <p class="text-gray-400 mb-6">
+              543 Country Club Ave, NC 27587, London, UK
+            </p>
+
+            <h3 class="text-xl font-semibold mb-4">Contact:</h3>
+            <p class="text-gray-400">Phone: +91 8348457995</p>
+            <p class="text-gray-400 mb-6">Email: foodi18@gmail.com</p>
+
+            <h3 class="text-xl font-semibold mb-4">Opening Hours:</h3>
+            <p class="text-gray-400">Monday - Friday: 9:00 AM - 10:00 PM</p>
+            <p class="text-gray-400 mb-6">
+              Saturday - Sunday: 9:00 AM - 7:00 PM
+            </p>
+
+            <h3 class="text-xl font-semibold mb-4">Stay Connected:</h3>
+            <div class="flex gap-4">
+              <i class="fab fa-facebook-f social-icon"></i>
+              <i class="fab fa-x-twitter social-icon"></i>
+              <i class="fab fa-instagram social-icon"></i>
+              <i class="fab fa-linkedin-in social-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="map-section animate-fade-in">
+      <iframe
+        src="https://maps.google.com/maps?q=london&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        class="w-full h-[400px] border-0"
+      >
+      </iframe>
+    </section>
+    <footer class="bg-[#0f1b2b] py-16">
+      <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
+        <!-- Logo & About -->
+        <div>
+          <a href="#">
+            <img src="./images/Logo.png" alt="logo" />
+          </a>
+          <p class="mt-4 text-gray-400 text-sm leading-relaxed">
+            Lorem ipsum dolor sit amet consectetur. Tristique cursus morbi nibh
+            nec et vulputate. Turpis tortor nisi imperdiet quis accumsan.
+          </p>
+
+          <!-- Social Icons -->
+          <div class="flex space-x-4 mt-6">
+            <div
+              class="w-10 h-10 flex items-center justify-center bg-[#16263a] rounded-full hover:bg-orange-400 transition"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <div
+              class="w-10 h-10 flex items-center justify-center bg-[#16263a] rounded-full hover:bg-orange-400 transition"
+            >
+              <i class="fab fa-x-twitter"></i>
+            </div>
+            <div
+              class="w-10 h-10 flex items-center justify-center bg-[#16263a] rounded-full hover:bg-orange-400 transition"
+            >
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div
+              class="w-10 h-10 flex items-center justify-center bg-[#16263a] rounded-full hover:bg-orange-400 transition"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Us -->
+        <div>
+          <h3 class="text-xl font-semibold text-white mb-4">Contact Us</h3>
+          <div class="space-y-4">
+            <div class="flex items-center gap-3">
+              <div
+                class="w-10 h-10 bg-[#16263a] rounded-full flex items-center justify-center"
+              >
+                <i class="fa-solid fa-envelope text-orange-400"></i>
+              </div>
+              <span>infofoodi@gmail.com</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div
+                class="w-10 h-10 bg-[#16263a] rounded-full flex items-center justify-center"
+              >
+                <i class="fa-solid fa-phone text-orange-400"></i>
+              </div>
+              <span>+91 7029112661</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- User Links -->
+        <div>
+          <h3 class="text-xl font-semibold text-white mb-4">User Link</h3>
+          <ul class="space-y-3">
+            <li class="hover:text-orange-400 cursor-pointer">About Us</li>
+            <li class="hover:text-orange-400 cursor-pointer">Contact Us</li>
+            <li class="hover:text-orange-400 cursor-pointer">Order Delivery</li>
+            <li class="hover:text-orange-400 cursor-pointer">Payments & Tax</li>
+            <li class="hover:text-orange-400 cursor-pointer">
+              Terms of Services
+            </li>
+          </ul>
+        </div>
+
+        <!-- Location -->
+        <div>
+          <h3 class="text-xl font-semibold text-white mb-4">Location</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">
+            543 Country Club Ave, NC 27587, London, UK <br />
+            +1 257 6541120
+          </p>
+
+          <!-- Payment Icons -->
+          <div class="flex gap-3 mt-6">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png"
+              class="h-8 bg-white p-1 rounded"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Google_Pay_Logo.svg"
+              class="h-8 bg-white p-1 rounded"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png"
+              class="h-8 bg-white p-1 rounded"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
+              class="h-8 bg-white p-1 rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
